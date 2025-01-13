@@ -1,4 +1,7 @@
-
+/* navbar */
+.navbar-brand {
+  font-weight: 700;
+}
 .btn-outline-success {
   background-color: black;
   border-color: black;
@@ -9,5 +12,16 @@
   background-color: white;
   border-color: black;
   color: black;
+}
 
+/* main */
+h1, h5 {
+  color: white;
+  font-weight: 900;
+}
+
+
+/* promotion */
+.card-body {
+  text-align: center;
 }
