@@ -40,6 +40,7 @@ h1, h5 {
 }
 .menu {
   margin: 3rem;
+  margin-left: 48px;
 }
 .menu p {
   font-weight: 700;
@@ -58,13 +59,15 @@ li {
   justify-content: space-around;
   background-color: black;
   color: white;
+
 }
 .location {
-  margin: 10px 0 0 48px;
+  margin-top: 10px;
+  margin-left: 170px;
 }
 .sns-area {
   display: flex;
-  margin-right: 48px;
+  margin-right: 140px;
 }
 .fa-brands {
   color: white;
