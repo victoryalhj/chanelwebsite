@@ -13,6 +13,9 @@
   border-color: black;
   color: black;
 }
+.nav-item {
+  padding: 0;
+}
 
 /* main */
 h1, h5 {
@@ -20,8 +23,89 @@ h1, h5 {
   font-weight: 900;
 }
 
-
 /* promotion */
 .card-body {
   text-align: center;
 }
+
+/* footer */
+.first-line {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.first-line h1{
+  display: none;
+}
+.menu {
+  margin: 3rem;
+}
+.menu p {
+  font-weight: 700;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 0.5rem;
+}
+
+
+.second-line {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+.location {
+  margin: 10px 0 0 48px;
+}
+.sns-area {
+  display: flex;
+  margin-right: 48px;
+}
+.fa-brands {
+  color: white;
+  margin: 1rem;
+}
+
+@media (max-width: 992px) {
+  .menu h1 {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .first-line {
+    display: block;
+    text-align: center;
+    background-color: black;
+  }
+  .menu {
+    padding: 30px 0px ;
+    margin: 0 ;
+  }
+  .second-line {
+    display: block;
+    text-align: center;
+    margin: 10 0 0 0;
+  }
+  .location {
+    margin: 0;
+  }
+  .sns-area {
+    justify-content: center;
+    margin: 0;
+  }
+  }
+
+  @media (max-width: 730px) {
+    .menu h1 {
+      display: block;
+      margin-bottom: 25px;
+    }
+    .location {
+      display: none;
+    }
+
+  }
